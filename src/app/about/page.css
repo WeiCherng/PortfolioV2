@@ -1,0 +1,6 @@
+.main_text::before {
+  /* height: 10%; */
+  height: 10px;
+  width: 100%;
+  background-color: #EBC7E6;
+}
