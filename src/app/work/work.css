@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.project-hero {
+  position: relative;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.project-hero::before {
+  content: "";
+  position: absolute;
+  bottom: 15%;
+  left: -5%;
+  z-index: -1;
+  height: 18px;
+  width: 180px;
+  background-color: #ADE792;
+}
+
+.project {
+  font-family: "Itim", cursive;
+  font-style: normal;
+  padding-bottom: 12px;
+}
+
+/* .project:hover {
+  border-bottom: 4px dotted #AAE3E2;
+} */
+
+.project-year {
+  font-weight: 600;
+  font-size: 36px;
+  position: relative;
+  font-family: "Itim", cursive;
+  font-style: normal;
+  margin-top: 64px;
+}
+
+.project-year::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: -24px;
+  z-index: -1;
+  height: 8px;
+  width: 80px;
+}
+
+.t4:before {
+  background-color: #A084DC;
+}
+
+.t3::before {
+  background-color: #EBC7E6;
+}
+
+.t2::before {
+  background-color: #AAE3E2;
+}
+
+.t1::before {
+  background-color: #FCDE70;
+}
+
+.project-title {
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+.project-desc {
+  color: #525252;
+  font-size: 16px;
+}
+

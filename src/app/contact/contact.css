@@ -1,0 +1,22 @@
+.contact_cont {
+  position: relative;
+  border: 1px solid #525252;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 4px 4px 0 2px #525252;
+  width: 80%;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-feedback {
+  border-bottom: 3px dashed red;
+}
+
+.contact-plane {
+  position: absolute;
+  top: -12%;
+  left: -8%;
+}
+
+

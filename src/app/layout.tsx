@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'WeiCherng',
-  description: 'yur',
+  title: 'Burp burp burp',
+  description: 'portfolio',
 }
 
 export default function RootLayout({
@@ -13,6 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/logo.svg" sizes="any" />
       <body>{children}</body>
     </html>
   )

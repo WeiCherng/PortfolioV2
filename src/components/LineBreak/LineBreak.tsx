@@ -9,10 +9,9 @@ const LineBreak: FC<LineBreakProps> = ({ color }) => {
   const lineBreakStyle: CSSProperties = {
     width: '100%',
     borderBottom: `4px solid ${color}`,
-    margin: '10px 0',
   };
 
-  return <div style={lineBreakStyle}></div>;
+  return <div style={lineBreakStyle} className='my-5'></div>;
 };
 
 export default LineBreak;
