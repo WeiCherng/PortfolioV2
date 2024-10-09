@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { memo } from "react";
+import "./Navbar.css"
 
 interface NavItemProps {
   path: string;
@@ -38,7 +39,7 @@ const Navbar = () => {
 
   return (
     <nav className="mb-5">
-      <ul className="flex justify-between mt-5 items-end">
+      <ul className="flex justify-between mt-5 items-end rubik">
         <NavItem path="/about" label="About" />
         <NavItem path="/work" label="Work" />
         {/* <NavItem path="/blog" label="Blog" /> */}
