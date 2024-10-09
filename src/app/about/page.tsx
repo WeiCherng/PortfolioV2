@@ -15,7 +15,7 @@ const About = () => {
             {/* <div className="w-[10px] h-[25px] bg-fuchsia-200 -z-2 absolute"></div> */}
           </div>
           <p className="text-justify pr-5">
-            I&apos;m a Software Engineer that is on a learning journey about
+            I&apos;m a <b>Software Engineer</b> that is on a learning journey about
             coding. The journey seems endless but theres only one way to find
             out. Time to time I like to create some other stuff too!
           </p>
@@ -28,9 +28,9 @@ const About = () => {
         <h2 className="sub_title text-xl">Project</h2>
         <p className="text-justify">
           I coded some very silly and small project that I think that are quite
-          nice. Usually my tech stack of choice are centered around React but
-          these day am looking foward to trying out new teachnologies. Checkout
-          the Work Tab to view some of my applicaton!
+          nice. Usually my tech stack of choice is centered around React but
+          these day am looking forward to trying out new technologies. Checkout
+          the Work Tab to view some of my applicatons!
         </p>
       </section>
       <LineBreak color="#ADE792" />
@@ -39,12 +39,12 @@ const About = () => {
           About <span className="sub_title_underline">Me</span>
         </h2>
         <p className="text-justify">
-          Here&apos;s some quick fun fact from me! RDR2 is the GOAT. Well at
+          Here&apos;s some quick fun fact from me! RDR2 is one of the greatest game ive played. Well at
           least for now, there is still alot of genre that I would like to try
-          in the future. I like to doodle & scribbles too, but never was a
+          in the future. I like to doodle but never was a
           realistic drawings kind of guy. Favourite Album right now is Blue
-          (Weezer), all of it slapsss hard. Lastly, Lego Minecraft is the
-          coolest thing ever. What could go wrong, LEGO + Minecraft? (Excluding the movie)
+          (Weezer). Lego Minecraft is the
+          coolest thing ever. What could go wrong, LEGO + Minecraft? Excluding the movie...
         </p>
       </section>
     </Cont>
