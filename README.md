@@ -1,6 +1,6 @@
 ## Personal Portfolio
 This is an personal portfolio project built with NextJS
-To view this project, visit: [https://www.weicherng.com/]
+To view this project, visit: [https://www.weicherng.com/](https://www.weicherng.com/)
 
 ## Local Development
 First, run the development server:
