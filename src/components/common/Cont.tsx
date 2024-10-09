@@ -8,7 +8,8 @@ interface ContProps {
 
 const Cont: FC<ContProps> = ({ children }) => {
   return (
-    <main className="max-w-screen-sm mx-auto h-screen flex flex-col justify-between">
+    // <main className="max-w-screen-sm mx-auto h-screen flex flex-col justify-between">
+    <main className="max-w-[80%] md:max-w-screen-sm mx-auto min-h-screen flex flex-col justify-between">
       <section>
         <Navbar />
         {children}

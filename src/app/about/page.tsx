@@ -7,8 +7,8 @@ import "./about.css";
 const About = () => {
   return (
     <Cont>
-      <section className="flex items-center">
-        <div className="w-6/12">
+      <section className="flex flex-col-reverse items-center rubik sm:flex-row">
+        <div className="w-12/12 sm:w-6/12">
           <div className="">
             <h1 className="main_name">WEI CHERNG</h1>
             <h2 className="sub_name">TANG</h2>
@@ -20,11 +20,11 @@ const About = () => {
             out. Time to time I like to create some other stuff too!
           </p>
         </div>
-        <div className="w-6/12">
+        <div className="w-12/12 sm:w-6/12">
           <Image src="avatar.svg" alt="avatar" width={300} height={400} />
         </div>
       </section>
-      <section>
+      <section className="mt-5">
         <h2 className="sub_title text-xl">Project</h2>
         <p className="text-justify">
           I coded some very silly and small project that I think that are quite

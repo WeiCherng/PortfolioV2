@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 .project-hero {
   position: relative;
   font-size: 34px;
   font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .project-hero::before {
@@ -14,7 +17,7 @@
   z-index: -1;
   height: 18px;
   width: 180px;
-  background-color: #ADE792;
+  background-color: #ade792;
 }
 
 .project {
@@ -47,19 +50,19 @@
 }
 
 .t4:before {
-  background-color: #A084DC;
+  background-color: #a084dc;
 }
 
 .t3::before {
-  background-color: #EBC7E6;
+  background-color: #ebc7e6;
 }
 
 .t2::before {
-  background-color: #AAE3E2;
+  background-color: #aae3e2;
 }
 
 .t1::before {
-  background-color: #FCDE70;
+  background-color: #fcde70;
 }
 
 .project-title {
@@ -71,4 +74,3 @@
   color: #525252;
   font-size: 16px;
 }
-
